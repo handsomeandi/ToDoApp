@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/parent"
+    app:strokeColor="@color/red"
+    app:strokeWidth="1dp"
+    android:layout_marginBottom="10dp">
+
+
+
+    <RelativeLayout
+        android:id="@+id/task_item"
+        android:layout_width="240dp"
+        android:layout_height="120dp">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/red"
+            android:padding="5dp"
+            >
+            <TextView
+                android:id="@+id/date_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Число"
+                android:textSize="24sp"
+                android:textColor="@color/white"/>
+
+            <ImageView
+                android:id="@+id/expandBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/ic_arrow_down" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/task_card"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:padding="5dp">
+            <TextView
+                android:id="@+id/tasks_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tasksLabel"
+                android:textSize="24sp"/>
+
+            <ListView
+                android:id="@+id/certainPeriodTasks"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_centerHorizontal="true">
+
+            </ListView>
+
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+
+</com.google.android.material.card.MaterialCardView>

@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">ToDoApp</string>
+    <string name="tasksLabel">Задачи:</string>
+    <string name="addLabel">Добавить</string>
+    <string name="planLabel">План</string>
+    <string name="weeksLabel">Недели</string>
+    <string name="daysLabel">Дни</string>
+    <string name="trackerLabel">Трекер</string>
+    <string name="addHabitLabel">Добавить привычку</string>
+    <string name="newTaskLabel">Новое задание</string>
+    <string name="timeLabel">Время</string>
+    <string name="dateLabel">Дата</string>
+    <string name="priorityLabel">Приоритет</string>
+    <string name="newHabitLabel">Новая привычка</string>
+    <string name="statisticsLabel">Статистика</string>
+    <string name="appName">ToDoAPP</string>
+    <string name="plannerLabel">Планировщик</string>
+    <string name="habitTrackerLabel">Трекер привычек</string>
+    <string name="habitLabel">Привычки</string>
+    <string name="productivityLabel">Продуктивность</string>
+    <string name="enter">Вход</string>
+    <string name="username">Никнейм</string>
+    <string name="emailField">Электронный адрес</string>
+    <string name="passField">Пароль</string>
+    <string name="register">Зарегистрироваться</string>
+    <string name="registerLabel">Регистрация</string>
+    <string name="signOut">Выйти</string>
+    <string name="nothing" />
+    <string name="tasksWithoutColonLabel">Задачи</string>
+    <string name="main_menu">Главное меню</string>
+
+    <string-array name="priorities">
+        <item>Высокий</item>
+        <item>Средний</item>
+        <item>Низкий</item>
+    </string-array>
+</resources>

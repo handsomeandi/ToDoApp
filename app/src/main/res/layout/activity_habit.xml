@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HabitActivity">
+
+    <TextView
+        android:id="@+id/habitLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Медитация"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/monthNameLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textSize="18sp"
+        android:text="January"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/habitLabel" />
+
+    <GridLayout
+        android:id="@+id/daysOfMonth"
+        android:columnCount="7"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/monthNameLabel">
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:text="ПН"
+            android:textAlignment="center" />
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:text="ВТ"
+            android:textAlignment="center" />
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:text="СР"
+            android:textAlignment="center" />
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:text="ЧТ"
+            android:textAlignment="center" />
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:text="ПТ"
+            android:textAlignment="center" />
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:text="СБ"
+            android:textAlignment="center" />
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:text="ВС"
+            android:textAlignment="center" />
+
+    </GridLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
